@@ -1,0 +1,10 @@
+select = ["I"]
+line-length = 88
+indent-width = 4
+target-version = "py312"
+
+[format]
+line-ending = "lf"
+quote-style = "single"
+indent-style = "space"
+skip-magic-trailing-comma = false

@@ -1,0 +1,16 @@
+[project]
+name = "nasa-exoplanets-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.118.0",
+    "scikit-learn>=1.7.2",
+]
+
+[dependency-groups]
+dev = [
+    "imbalanced-learn>=0.14.0",
+    "ruff>=0.13.3",
+]
